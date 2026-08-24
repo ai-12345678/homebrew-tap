@@ -3,6 +3,7 @@ class GoAT1270 < Formula
   homepage "https://go.dev/"
   url "https://go.dev/dl/go1.27.0.darwin-arm64.tar.gz"
   version "1.27.0"
+  sha256 "90493b3bbd5e10f91d12153198bf1994fd756399b4fec93b49b0c6e2acdeeb3e"
 
   depends_on :macos
   depends_on arch: :arm64
