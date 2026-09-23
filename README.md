@@ -29,9 +29,11 @@ brew install ai-12345678/tap/go@1.27.0
 ## Go 1.27.1 (Linux ARM64)
 
 ```bash
+brew update
 brew trust --formula ai-12345678/tap/go@1.27.1
 brew install ai-12345678/tap/go@1.27.1
 "$(brew --prefix ai-12345678/tap/go@1.27.1)/bin/go" version
+brew link --overwrite --force ai-12345678/tap/go@1.27.1
 ```
 
 ## Postman CLI 1.59.0
